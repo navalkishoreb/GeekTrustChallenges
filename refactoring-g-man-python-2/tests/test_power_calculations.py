@@ -9,6 +9,7 @@ from src.models import Point
 
 
 class TestData:
+    __test__ = False
     def __init__(self, source: Point, destination: Point,
                  expected_power_required: int):
         self.source = source
